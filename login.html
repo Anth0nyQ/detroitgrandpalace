@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet"
+    href="style.css"> 
+</head>
+<body class="login1">
+    <div class="container">
+        <form action="/auth/login" method= "POST" class="form" id="login">
+        <h1 class="formLogin"><br> Login </h1>
+        <div class="LoginInput">
+            <input type="email" name="email" class="LoginInputInfo" autofocus placeholder="Email Address">
+        </div>
+        <div class="LoginInput">
+            <input type="password" name= "password" class="LoginInputInfo" autofocus placeholder="Password">
+        </div>
+        <button class="LoginSubmit" type="submit">Login</button>
+        <p class="AccountLink">
+            Don't have an Account? <a href="register.html" class="link">Create Account</a>
+        </p>
+        </form>
+    </div>
+</body>
+</html>
