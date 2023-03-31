@@ -69,7 +69,7 @@ if (isset($_POST["checkout-btn"])) {
 
                         <div class="info-label">Specify your order
                             number when you make the bank transfer. Your
-                            order will be shippied after the amount is
+                            order will be shipped after the amount is
                             credited to us.</div>
                     </div>
                 </div>

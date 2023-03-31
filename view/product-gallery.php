@@ -20,7 +20,7 @@
                     <li class="list-group-item">Line 1</li>
                     <li class="list-group-item">Line 2</li>
                   </ul>
-                  <button onclick="cartAction('add','code1','Package 1',10)" href="/billing-details.php" class="btn btn-primary">Purchase</button>
+                  <button onclick="cartAction('add','code1','Package 1',1000)" href="/billing-details.php" class="btn btn-primary">Purchase</button>
                 </div>
                 <div class="card-footer text-muted">
                   Best for those who do not want a huge wedding.
@@ -41,7 +41,7 @@
                     <li class="list-group-item">Line 3</li>
                     <li class="list-group-item">Line 4</li>
                   </ul>
-                  <button onclick="cartAction('add','code2','Package 2',20)" href="/billing-details.php" class="btn btn-primary">Purchase</bu>
+                  <button onclick="cartAction('add','code2','Package 2',2000)" href="/billing-details.php" class="btn btn-primary">Purchase</bu>
                 </div>
                 <div class="card-footer text-muted">
                   A well-rounded package best for a budget.
@@ -64,7 +64,7 @@
                     <li class="list-group-item">Line 5</li>
                     <li class="list-group-item">Line 6</li>
                   </ul>
-                  <button onclick="cartAction('add','code2','Package 3',30)" href="/billing-details.php" class="btn btn-primary">Purchase</button>
+                  <button onclick="cartAction('add','code2','Package 3',3000)" href="/billing-details.php" class="btn btn-primary">Purchase</button>
                 </div>
                 <div class="card-footer text-muted">
                   Best for the ultimate experience.
