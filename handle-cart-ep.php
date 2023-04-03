@@ -3,7 +3,7 @@ namespace Phppot;
 
 use \Phppot\Cart;
 
-require_once __DIR__ . './../Model/Cart.php';
+require_once __DIR__ . './../Model/cart.php';
 $cartModel = new Cart();
 session_start();
 

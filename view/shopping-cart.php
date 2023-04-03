@@ -1,6 +1,6 @@
 <?php
 use Phppot\Cart;
-require_once __DIR__ . './../Model/Cart.php';
+require_once __DIR__ . './../Model/cart.php';
 $cartModel = new Cart();
 ?>
 <input type="hidden" id="cart-item-count"
@@ -13,7 +13,7 @@ if ($cartModel->cartSessionItemCount > 0) {
 	<tbody>
 		<tr>
 			<th>Name</th>
-			<th>Quantity</th>
+			<th>Date</th>
 			<th class="text-right">Price</th>
 			<th class="text-right">Action</th>
 		</tr>   
@@ -24,8 +24,8 @@ if ($cartModel->cartSessionItemCount > 0) {
         ?>
         <tr>
 			<td><?php echo $item["name"]; ?></td>
-			<td><input type="number" name="quantity" class="quantity"
-				value="<?php echo $item['quantity']; ?>"
+			<td><input type="text" name="date" class="date"
+				value="<?php echo $item['date']; ?>"
 				data-code='<?php echo $item["code"]; ?>' size=2
 				onChange="updatePrice(this)" /> <input type="hidden" class='total'
 				name="total" value="<?php echo $item["price"]; ?>" /></td>
@@ -37,7 +37,7 @@ if ($cartModel->cartSessionItemCount > 0) {
 					alt="Remove Item" /></a></td>
 		</tr>
     <?php
-        $item_total += ($item["price"] * $item['quantity']);
+        $item_total += ($item["price"]);
     }
     ?>
         <tr id="tot">
