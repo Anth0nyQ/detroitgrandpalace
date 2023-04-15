@@ -6,7 +6,8 @@ if (isset($_POST["checkout-btn"])) {
 ?>
 <HTML>
 <HEAD>
-<TITLE>One Page Checkout Script Free Template</TITLE>
+
+<TITLE>Detroit Grand Palace</TITLE>
 <link href="./assets/css/phppot-style.css" type="text/css"
     rel="stylesheet" />
 <link href="./assets/css/one-page-checkout.css" type="text/css"
@@ -16,7 +17,7 @@ if (isset($_POST["checkout-btn"])) {
 </HEAD>
 <BODY>
     <div class="phppot-container">
-        <div class="page-heading">One Page Checkout Script Free Template</div>
+        <div class="page-heading"></div>
 
         <form name="one-page-checkout-form" id="one-page-checkout-form"
             action="" method="post" onsubmit="return checkout()">

@@ -6,18 +6,23 @@ if (isset($_POST["checkout-btn"])) {
 ?>
 <HTML>
 <HEAD>
-<TITLE>One Page Checkout Script Free Template</TITLE>
+
+<TITLE>Detroit Grand Palace</TITLE>
 <link href="./assets/css/phppot-style.css" type="text/css"
     rel="stylesheet" />
 <link href="./assets/css/one-page-checkout.css" type="text/css"
     rel="stylesheet" />
-<!-- <script src="./vendor/jquery/jquery.min.js" type="text/javascript"></script> -->
+
+<script src="./vendor/jquery/jquery.min.js" type="text/javascript"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="./vendor/jquery/jquery-ui.js"></script>
 </HEAD>
 <BODY>
     <div class="phppot-container">
-        <div class="page-heading">One Page Checkout Script Free Template</div>
+
+        <div class="page-heading"></div>
+
 
         <form name="one-page-checkout-form" id="one-page-checkout-form"
             action="" method="post" onsubmit="return checkout()">
@@ -46,7 +51,9 @@ if (isset($_POST["checkout-btn"])) {
             <div id="shopping-cart" tabindex="1">
                 <div id="tbl-cart">
                     <div id="txt-heading">
-                        <div id="cart-heading">Your Shopping Cart</div>
+
+                        <div id="cart-heading">Shopping Cart</div>
+
                         <div id="close"></div>
                     </div>
                     <div id="cart-item">
@@ -136,4 +143,22 @@ function checkout() {
 }
 </script>
 </BODY>
+
+<!-- Start of Footer -->
+<style>
+      .footer {
+        background-color:maroon;
+      }
+
+    </style>
+    <footer class="footer text-white">
+        
+        <div class="container">
+
+          <p class="justify-content-center">Copyright 2022. All rights reserved.</p>
+
+        </div>
+    <!-- End of Footer -->
+    </footer>
+
 </HTML>
