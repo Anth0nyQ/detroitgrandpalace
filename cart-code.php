@@ -6,6 +6,7 @@ if (isset($_POST["checkout-btn"])) {
 ?>
 <HTML>
 <HEAD>
+
 <TITLE>Detroit Grand Palace</TITLE>
 <link href="./assets/css/phppot-style.css" type="text/css"
     rel="stylesheet" />
