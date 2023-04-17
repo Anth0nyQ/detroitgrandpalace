@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Garamond serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: maroon;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: white;
+  padding: 20px;
+  color: maroon;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+  color: maroon;
+}
+
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+<!-- Navbar -->
+<style>
+    /* Set the background color for the navigation bar */
+    .navbar {
+      background-color: maroon;
+    }
+    
+    /* Style the links in the navigation bar */
+    .navbar a {
+      float: left;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    /* Add a hover effect to the links in the navigation bar */
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Clear floats after the navigation bar */
+    .navbar::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  </style>
+  <div class="navbar">
+    <a href="home.html">Home</a>
+    <a href="about_the_company.html">About</a>
+    <a href="Contact.html">Contact</a>
+    <a href="index.php">Packages</a>
+    <a href="/login-related-files/login.php">Log In</a>
+  </div>
+</head>
+<body>
+
+<div class="header">
+  <h1>Detroit GRAND Palace</h1>
+  <p>A <b>venue</b> to make your own, <b> minus</b> the stress.</p>
+</div> 
+
+<div class="row">
+  <div class="side">
+    <h2>DGP is the place where your dream event <b><i> SHINES </b></i> ! </h2>
+   
+    <img src="rose_and_gold_shimmer.gif" alt="Rose and gold shimmer" style="height:350px;">
+    <h3> Book with us today!</h3>
+
+    <h3>Are you engaged and looking for a place to have your wedding, videographer, food, etc. ALL in one? This is the place!</h3>
+    <h2> Follow us on Instagram at #detroitgrandpalace!</h2>
+    <h2> Visit our Packages page to view the different services we provide for each tier!</h2>
+
+   <img src="wedding_ring.gif" alt="Wedding Ring" style="height:350px;">
+  </div>
+  <div class="main">
+    <h2>TESTIMONIALS</h2>
+    <h4>Lisa Marie, Jan 7, 2023</h4>
+    <img src="winter_wedding.jpg" alt="Winter Wedding" style="height:350px;">
+    <h3> <b> Winter Wonderland </b> </h3>
+    <p>I could have not picked a better place to have my wedding! My husband's HUGEEE family is from Detroit, so we decided to have it here so everyone can join us on our special day. The weather was perfect, the winter was snow white, and Detroit Grand Palace took care of us and EXCEEDED our expectations. We did not know where to start with wedding planning, but once we talked to Diamond, Lydia, Anthony, Entisar, and Awantika about packages, scheduling, the venue, and what to expect, we knew this was the perfect place! Thanks to everyone at DGP!</p>
+    
+    <h4> Nicole and Samuel, February 27, 2023</h4>
+     <img src="wedding_detroit_river.jpg" alt="Winter Wedding" style="height:350px;">
+    <p> <b> Almost Spring Overlooking Detroit River </b> </p>
+    <p>I CANNOT express how accomodating DGP was for our wedding! We had a few hiccups with our old wedding venue and booked DGP in such short notice. They told us NO WORRIES and booked us immediately! We booked their Intermediate package since our wedding wasn't that big. Everything was perfect. Their in-house catering was delish and my husband and I definitely chose the best venue in Detroit, no doubt about it!</p>
+
+<h1>Satisfied Yet? Come save some time and stress and let us plan everything for you! Hassle-free! </h1>
+
+<!-- Start of Footer -->
+    <footer class="footer bg-dark text-white">
+        
+        <div class="container">
+
+          <p class="justify-content-center">Copyright 2022. All rights reserved.</p>
+
+        </div>
+    <!-- End of Footer -->
+    </footer> 
+</body>
+</html>
