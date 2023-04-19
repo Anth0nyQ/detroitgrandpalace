@@ -55,7 +55,7 @@
           <a href="../about_the_company.html">About</a>
           <a href="../Contact.html">Contact</a>
           <a href="../index.php">Packages</a>
-          <a href="../login-related-files/login.php">Log In</a>
+          <a href="../userProfile.php">Profile</a>
         </div>
         <!-- End of Navbar -->
     </head>

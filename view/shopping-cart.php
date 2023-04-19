@@ -8,8 +8,7 @@ $cartModel = new Cart();
 <?php
 if ($cartModel->cartSessionItemCount > 0) {
     ?>
-<table width="100%" id="cart-table" cellpadding="10" cellspacing="1"
-	border="0">
+<table width="100%" id="cart-table" cellpadding="10" cellspacing="1">
 	<tbody>
 		<tr>
 			<th>Name</th>
